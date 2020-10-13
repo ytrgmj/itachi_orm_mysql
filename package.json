@@ -1,0 +1,24 @@
+{
+    "name": "@dt/itachi_orm_mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/orm_mysql.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@dt/itachi_orm": "1.0.0",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.9.1",
+        "@types/mysql": "^2.15.8",
+        "@types/node": "^13.5.0",
+        "jest": "^25.1.0",
+        "ts-jest": "^25.0.0",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.7.5"
+    }
+}
