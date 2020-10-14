@@ -1,6 +1,6 @@
-import { IExecutor } from '@dt/itachi_orm';
-import { Sql } from '@dt/itachi_orm';
-import { Context } from '@dt/itachi_util';
+import { IExecutor } from 'itachi_orm';
+import { Sql } from 'itachi_orm';
+import { Context } from 'itachi_util';
 import ExecutorStatus from './status/ExecutorStatus';
 import NormalStatus from './status/NormalStatus';
 export default class MySqlExecutor implements IExecutor {

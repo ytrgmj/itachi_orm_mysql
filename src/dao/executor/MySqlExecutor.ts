@@ -1,7 +1,7 @@
-import { IExecutor } from '@dt/itachi_orm'
+import { IExecutor } from 'itachi_orm'
 import mysqlPoolFac from '../../poolFac/MysqlPoolFac'
-import { Sql,TransManager } from '@dt/itachi_orm'
-import { Context } from '@dt/itachi_util';
+import { Sql,TransManager } from 'itachi_orm'
+import { Context } from 'itachi_util';
 import ExecutorStatus from './status/ExecutorStatus';
 import NormalStatus from './status/NormalStatus';
 import MysqlPoolFac from '../../poolFac/MysqlPoolFac';

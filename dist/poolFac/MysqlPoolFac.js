@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mysql_1 = __importDefault(require("mysql"));
-const itachi_orm_1 = require("@dt/itachi_orm");
+const itachi_orm_1 = require("itachi_orm");
 class MysqlPoolFac extends itachi_orm_1.BasePoolFac {
     getType() {
         return 'mysql';

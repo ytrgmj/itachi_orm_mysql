@@ -24,4 +24,4 @@ var MySqlDao_1 = require("./dao/MySqlDao");
 Object.defineProperty(exports, "MySqlDao", { enumerable: true, get: function () { return MySqlDao_1.default; } });
 var MysqlPoolFac_1 = require("./poolFac/MysqlPoolFac");
 Object.defineProperty(exports, "MysqlPoolFac", { enumerable: true, get: function () { return MysqlPoolFac_1.default; } });
-__exportStar(require("@dt/itachi_orm"), exports);
+__exportStar(require("itachi_orm"), exports);

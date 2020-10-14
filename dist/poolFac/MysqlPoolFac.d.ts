@@ -1,5 +1,5 @@
 import mysql from 'mysql';
-import { BasePoolFac, BaseOption } from '@dt/itachi_orm';
+import { BasePoolFac, BaseOption } from 'itachi_orm';
 interface MySqlOption extends BaseOption {
     user: string;
 }

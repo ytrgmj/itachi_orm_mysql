@@ -1,5 +1,5 @@
-import { SqlDao } from '@dt/itachi_orm'
-import { IExecutor } from '@dt/itachi_orm'
+import { SqlDao } from 'itachi_orm'
+import { IExecutor } from 'itachi_orm'
 import MySqlExecutor from './executor/MySqlExecutor'
 
 

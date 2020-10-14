@@ -1,5 +1,5 @@
-import {Context} from '@dt/itachi_core'
-import { TransManager } from '@dt/itachi_orm';
+import {Context} from 'itachi_core'
+import { TransManager } from 'itachi_orm';
 
 export default abstract class ExecutorStatus {
 
