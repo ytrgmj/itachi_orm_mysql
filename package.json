@@ -1,5 +1,5 @@
 {
-    "name": "@dt/itachi_orm_mysql",
+    "name": "itachi_orm_mysql",
     "version": "1.0.0",
     "description": "",
     "main": "dist/orm_mysql.js",
